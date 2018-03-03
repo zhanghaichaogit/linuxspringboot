@@ -8,7 +8,7 @@
 <body>
 <div class="wrapper wrapper-content animated fadeInRight row">
     <div class="col-sm-12">
-        hello html1.0
+        hello html2.0
     </div>
 </body>
 </html>
