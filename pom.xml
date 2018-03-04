@@ -216,7 +216,7 @@
                 <pom.freemarker.cache>false</pom.freemarker.cache>
                 <!-- 日志 -->
                 <!--日志位置-->
-                <pom.log.dir>/var/log/linuxspringboot</pom.log.dir>
+                <pom.log.dir>/home/zhanghaichao/logs/linuxspringboot</pom.log.dir>
                 <pom.log.name>linuxspringboot</pom.log.name>
                 <pom.log.dir.backup>backup</pom.log.dir.backup>
                 <pom.log.filesize>5M</pom.log.filesize><!-- 日志切割的最小单位 -->
