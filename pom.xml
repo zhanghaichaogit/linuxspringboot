@@ -153,22 +153,22 @@
                 </configuration>
             </plugin>
             <!-- 打包同时生成源码包 -->
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-source-plugin</artifactId>
-                <version>${maven-source-plugin.version}</version>
-                <configuration>
-                    <!--<encoding>UTF-8</encoding>-->
-                </configuration>
-                <executions>
-                    <execution>
-                        <phase>package</phase>
-                        <goals>
-                            <goal>jar-no-fork</goal>
-                        </goals>
-                    </execution>
-                </executions>
-            </plugin>
+            <!--<plugin>-->
+                <!--<groupId>org.apache.maven.plugins</groupId>-->
+                <!--<artifactId>maven-source-plugin</artifactId>-->
+                <!--<version>${maven-source-plugin.version}</version>-->
+                <!--<configuration>-->
+                    <!--&lt;!&ndash;<encoding>UTF-8</encoding>&ndash;&gt;-->
+                <!--</configuration>-->
+                <!--<executions>-->
+                    <!--<execution>-->
+                        <!--<phase>package</phase>-->
+                        <!--<goals>-->
+                            <!--<goal>jar-no-fork</goal>-->
+                        <!--</goals>-->
+                    <!--</execution>-->
+                <!--</executions>-->
+            <!--</plugin>-->
         </plugins>
         <!--配置资源文件过滤，如果有其他需要打包的资源，需要重载此配置节 -->
         <resources>
